@@ -1,0 +1,15 @@
+<svg id="ExitScreen" display="none">
+    <text class="headertext">Exit App?</text>
+  <svg y="$">
+    <!-- toggle button NO -->
+    <use id="btn-no" href="#square-button-toggle-icon" value="1" fill="fb-red">
+      <set href="text"  attributeName="text-buffer" to="No" />
+      <set href="image" attributeName="href" to="btn_combo_x_press_p.png"/>
+    </use>
+    <!-- toggle button YES -->
+    <use id="btn-yes" href="#square-button-toggle-icon" x="50%" fill="fb-green">
+      <set href="text"  attributeName="text-buffer" to="Yes" />
+      <set href="image" attributeName="href" to="btn_combo_check_press_p.png"/>
+    </use>
+  </svg>
+</svg>

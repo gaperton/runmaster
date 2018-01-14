@@ -1,0 +1,140 @@
+text {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+  fill: white;
+}
+
+.headertext {
+  x: 50%;
+  y: 35%;
+  font-family: Seville;
+  fill: yellow;
+  font-size: 45;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.opaque {
+  fill: #FFFFFF;
+  opacity: 1;
+}
+.yellow {
+  fill: yellow;
+}
+.peach {
+  fill: fb-peach;
+}
+.orange {
+  fill: orange;
+}
+.red {
+  fill: red;
+}
+.magenta {
+  fill: magenta;
+}
+.pink {
+  fill: pink;
+}
+.plum {
+  fill: plum;
+}
+.violet {
+  fill: violet;
+}
+.purple {
+  fill: purple;
+}
+.indigo {
+  fill: indigo;
+}
+.cerulean {
+  fill: fb-cerulean;
+}
+.slate {
+  fill: fb-slate;
+}
+.lavender {
+  fill: lavender;
+}
+.blue {
+  fill: blue;
+}
+.cyan {
+  fill: cyan;
+}
+.aqua {
+  fill: aqua;
+}
+.green {
+  fill: green;
+}
+.mint {
+  fill: fb-mint;
+}
+.lime {
+  fill: lime;
+}
+.slatepress {
+  fill: fb-slate-press;
+}
+.yellowpress {
+  fill: fb-slate-press;
+}
+.greenpress {
+  fill: fb-slate-press;
+}
+.white {
+  fill: white;
+}
+.darkgray {
+  fill: fb-dark-gray;
+}
+.lightgray {
+  fill: fb-light-gray;
+}
+.extradarkgray {
+  fill: fb-extra-dark-gray;
+}
+
+
+.item-header {
+  height: 20;
+  width: 100%;
+}
+
+.item {
+  fill: red;
+  width: 100%;
+  height: 88;
+}
+
+.hstuff {
+  width: 100%; 
+  height: 100%; 
+  fill: gray;
+}
+.stuff {
+  x: 2; 
+  y: 2; 
+  width: 100%-4; 
+  height: 100%-2; 
+  fill: fb-peach;
+}
+.fstuff {
+  width: 100%; 
+  height: 100%; 
+  fill: fb-dark-gray;
+}
+
+.item-footer {
+  fill: fb-extra-dark-gray;
+  height: 20;
+  width: 100%;
+}
+
+.sampleText {
+  x: 12;
+}

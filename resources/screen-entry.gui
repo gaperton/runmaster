@@ -1,0 +1,55 @@
+<svg id="EntryScreen" display="none">
+  <use href="#scrollview">
+    <use href="#scrollview-item">
+      <text x="10" y="40">GPS</text>  
+      <text x="10" y="80">Lat:</text>  
+      <text id="lat" x="90" y="80"></text>
+      <text x="10" y="120">Lon:</text>  
+      <text id="lon" x="90" y="120"></text>
+      <text x="10" y="160">Alt:</text> 
+      <text id="alt" x="90" y="160"></text>
+      <text x="10" y="200">SPD:</text>  
+      <text id="SPD"  x="90" y="200"></text>
+      <text x="10" y="240">HD:</text> 
+      <text id="HD" x="90" y="240"></text>
+    </use>
+    <use href="#scrollview-item">
+      <text x="10" y="40">DISTANCE</text>  
+      <text x="10" y="80">Dst:</text>  
+      <text id="distance" x="90" y="80"></text>
+      <text x="10" y="120">Asc:</text>  
+      <text id="ascent" x="90" y="120"></text>
+      <text x="10" y="160">Des:</text> 
+      <text id="descent" x="90" y="160"></text>
+    </use>
+    <use href="#scrollview-item">
+      <text x="10" y="40">HEART RATE</text>  
+      <text x="10" y="80">Cur:</text>  
+      <text id="curHR" x="90" y="80"></text>
+      <text x="10" y="120">Max:</text>  
+      <text id="maxHR" x="90" y="120"></text>
+      <text x="10" y="160">Avg:</text> 
+      <text id="avgHR" x="90" y="160"></text>
+    </use>
+    <use href="#scrollview-item">
+      <text x="10" y="40">CADENCE</text>  
+      <text x="10" y="80">Trg:</text>  
+      <text id="targetCadence" x="90" y="80"></text>
+      <text x="10" y="120">Av:</text>  
+      <text id="avgCadence" x="90" y="120"></text>
+      <text x="10" y="160">Stp:</text>  
+      <text id="totalSteps" x="90" y="160"></text>
+    </use>
+    <use href="#scrollview-item">
+      <text x="10" y="40">DURATION</text>  
+      <text x="10" y="80">Dur:</text>  
+      <text id="duration" x="90" y="80"></text>
+      <text x="10" y="120">Srt:</text>  
+      <text id="startTime" x="90" y="120"></text>
+      <text x="10" y="160">End:</text> 
+      <text id="endTime" x="90" y="160"></text>
+      <text x="10" y="200">Cur:</text>  
+      <text id="currentTime"  x="90" y="200"></text>
+    </use>
+  </use>
+</svg>

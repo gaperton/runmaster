@@ -1,0 +1,43 @@
+<svg id="SummaryScreen" display="none">
+  <defs>
+    <symbol id="myheader" focusable="true">
+      <!-- tile content here -->
+      <rect class="hstuff" />
+      <text id="sampleText" fill="white" >Header Tile</text>
+    </symbol>
+    <symbol id="mytile" focusable="true">
+      <!-- tile content here -->
+      <rect class="stuff" />
+      <text id="sampleText" fill="white" >Hello World!</text>
+    </symbol>
+    <symbol id="myfooter" focusable="true">
+      <!-- tile content here -->
+      <rect class="fstuff" />
+      <text id="sampleText" fill="white" >Footer Tile</text>
+    </symbol>
+  </defs>
+  
+  <use id="mylist" href="#tile-list" >
+    <var id="reorder-enabled" value="1" />
+    <var id="separator-height-bottom" value="5"/>
+
+    <use id="headertile" href="#tile-list-header" class="item">
+      <use href="#myheader" />
+    </use>
+    <use id="tile-0" href="#tile-list-item" class="item">
+      <use href="#mytile" />
+    </use>
+    <use id="tile-1" href="#tile-list-item" class="item">
+      <use href="#mytile" />
+    </use>
+    <use id="tile-2" href="#tile-list-item" class="item">
+      <use href="#mytile" />
+    </use>
+    <use id="tile-3" href="#tile-list-item" class="item">
+      <use href="#mytile" />
+    </use>
+    <use id="footertile" href="#tile-list-footer" class="item">
+      <use href="#myfooter" />
+    </use>
+  </use>
+</svg>

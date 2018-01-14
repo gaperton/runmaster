@@ -1,0 +1,6 @@
+<svg>
+  <link rel="import" href="screen1.gui" />
+  <link rel="import" href="screen-entry.gui" />
+  <link rel="import" href="screen-exit.gui" />
+  <link rel="import" href="screen-summary.gui" />
+</svg>
